@@ -8,7 +8,6 @@ func main() {
 	for k, v := range nums {
 		fmt.Println(k, v)
 	}
-
 }
 
 func bubbleSort(nums []int) {

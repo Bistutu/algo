@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a176dd1-96aa-4093-bbfe-1d76cbe5341f" name="更改" comment="" />
+    <list default="true" id="7a176dd1-96aa-4093-bbfe-1d76cbe5341f" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/misc/sort/快排.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/sort/快排二.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newcode/2.go" beforeDir="false" afterPath="$PROJECT_DIR$/newcode/2.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,34 +24,41 @@
     </option>
   </component>
   <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.21.0" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2VOIqvBwohaR8GA3ikRfy6bQhVG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go Application",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/miankang.chen/Desktop/awesomeProject4/21",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editing.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/miankang.chen/Desktop/algo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/21" />
@@ -59,29 +71,29 @@
       <recent name="$PROJECT_DIR$/1. 两数之和" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build awesomeProject3/newcode (1)">
-    <configuration name="go build awesomeProject3/牛客" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go 构建.go build awesomeProject3/misc/sort (2)">
+    <configuration name="go build awesomeProject3/misc/sort (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject3" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="awesomeProject3/牛客" />
+      <kind value="FILE" />
+      <package value="awesomeProject3/misc/sort" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/牛客/1.go" />
+      <filePath value="$PROJECT_DIR$/misc/sort/快排2.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build awesomeProject3/misc/排序" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build awesomeProject3/misc/sort (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject3" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="awesomeProject3/misc/排序" />
+      <kind value="FILE" />
+      <package value="awesomeProject3/misc/sort" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/misc/排序/选择排序.go" />
+      <filePath value="$PROJECT_DIR$/misc/sort/快排二.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build awesomeProject3/misc/sort" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject3" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
+      <kind value="FILE" />
       <package value="awesomeProject3/misc/sort" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/misc/sort/选择排序.go" />
@@ -107,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build awesomeProject3/misc/sort (2)" />
+        <item itemvalue="Go 构建.go build awesomeProject3/misc/sort (1)" />
+        <item itemvalue="Go 构建.go build awesomeProject3/misc/sort" />
         <item itemvalue="Go 构建.go build awesomeProject3/newcode (1)" />
         <item itemvalue="Go 构建.go build awesomeProject3/newcode" />
-        <item itemvalue="Go 构建.go build awesomeProject3/牛客" />
-        <item itemvalue="Go 构建.go build awesomeProject3/misc/sort" />
-        <item itemvalue="Go 构建.go build awesomeProject3/misc/排序" />
       </list>
     </recent_temporary>
   </component>
