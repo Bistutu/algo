@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a176dd1-96aa-4093-bbfe-1d76cbe5341f" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/misc/sort/快排.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/sort/快排二.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/sort/归并gpt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/sort/快排gpt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/sort/插入.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newcode/2.go" beforeDir="false" afterPath="$PROJECT_DIR$/newcode/2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/sort/快排.go" beforeDir="false" afterPath="$PROJECT_DIR$/misc/sort/快排.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/sort/快排二.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +73,7 @@
       <recent name="$PROJECT_DIR$/1. 两数之和" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build awesomeProject3/misc/sort (2)">
+  <component name="RunManager" selected="Go 构建.go build awesomeProject3/misc/sort (5)">
     <configuration name="go build awesomeProject3/misc/sort (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject3" />
       <working_directory value="$PROJECT_DIR$" />
@@ -90,40 +92,40 @@
       <filePath value="$PROJECT_DIR$/misc/sort/快排二.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build awesomeProject3/misc/sort" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build awesomeProject3/misc/sort (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject3" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="awesomeProject3/misc/sort" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/misc/sort/选择排序.go" />
+      <filePath value="$PROJECT_DIR$/misc/sort/插入.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build awesomeProject3/newcode (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build awesomeProject3/misc/sort (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject3" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="awesomeProject3/newcode" />
+      <package value="awesomeProject3/misc/sort" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/newcode/2.go" />
+      <filePath value="$PROJECT_DIR$/misc/sort/归并.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build awesomeProject3/newcode" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build awesomeProject3/misc/sort (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject3" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="awesomeProject3/newcode" />
+      <package value="awesomeProject3/misc/sort" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/newcode/1.go" />
+      <filePath value="$PROJECT_DIR$/misc/sort/归并gpt.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build awesomeProject3/misc/sort (5)" />
+        <item itemvalue="Go 构建.go build awesomeProject3/misc/sort (4)" />
+        <item itemvalue="Go 构建.go build awesomeProject3/misc/sort (3)" />
         <item itemvalue="Go 构建.go build awesomeProject3/misc/sort (2)" />
         <item itemvalue="Go 构建.go build awesomeProject3/misc/sort (1)" />
-        <item itemvalue="Go 构建.go build awesomeProject3/misc/sort" />
-        <item itemvalue="Go 构建.go build awesomeProject3/newcode (1)" />
-        <item itemvalue="Go 构建.go build awesomeProject3/newcode" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +148,11 @@
           <url>file://$PROJECT_DIR$/newcode/1.go</url>
           <line>20</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/misc/sort/归并gpt.go</url>
+          <line>6</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
