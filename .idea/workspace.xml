@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a176dd1-96aa-4093-bbfe-1d76cbe5341f" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/leet/104/二叉树的最大深度.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet/121/买卖股票的最佳时机.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet/136/只出现一次的数字.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet/141/环形链表.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet/160/相交链表.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet/169/多数元素.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet/206/反转链表.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet/234/回文链表.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet/338/比特位计数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet/617合并二叉树.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet/70/爬楼梯.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/两数之和.go" beforeDir="false" afterPath="$PROJECT_DIR$/leet/1/两数之和.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.两数相加.go" beforeDir="false" afterPath="$PROJECT_DIR$/leet/2/2.两数相加.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/res.go" beforeDir="false" afterPath="$PROJECT_DIR$/leet/2/res.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21/21. 合并两个有序链表.go" beforeDir="false" afterPath="$PROJECT_DIR$/leet/21/21. 合并两个有序链表.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21/res.go" beforeDir="false" afterPath="$PROJECT_DIR$/leet/21/res.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leet/easy/70爬楼梯.go" beforeDir="false" afterPath="$PROJECT_DIR$/leet/easy/70爬楼梯.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +69,7 @@
       <recent name="$PROJECT_DIR$/1. 两数之和" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build awesomeProject3/leet">
+  <component name="RunManager" selected="Go 构建.go build awesomeProject3/leet/easy">
     <configuration name="go build awesomeProject3/leet" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject3" />
       <working_directory value="$PROJECT_DIR$" />
@@ -102,15 +86,6 @@
       <package value="awesomeProject3/leet/104" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/leet/104/二叉树的最大深度.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build awesomeProject3/leet/121" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject3" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="awesomeProject3/leet/121" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/leet/121/买卖股票的最佳时机.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build awesomeProject3/leet/206" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -131,13 +106,22 @@
       <filePath value="$PROJECT_DIR$/leet/234/回文链表.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build awesomeProject3/leet/easy" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject3" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="awesomeProject3/leet/easy" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/leet/easy/70爬楼梯.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build awesomeProject3/leet/easy" />
         <item itemvalue="Go 构建.go build awesomeProject3/leet" />
         <item itemvalue="Go 构建.go build awesomeProject3/leet/234" />
         <item itemvalue="Go 构建.go build awesomeProject3/leet/104" />
         <item itemvalue="Go 构建.go build awesomeProject3/leet/206" />
-        <item itemvalue="Go 构建.go build awesomeProject3/leet/121" />
       </list>
     </recent_temporary>
   </component>
