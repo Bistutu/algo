@@ -2,58 +2,53 @@ package main
 
 import (
 	"fmt"
-	"time"
 )
 
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
+
+func findPaths(root *TreeNode, target int) [][]*TreeNode {
+	var currentPath []*TreeNode
+	var res [][]*TreeNode
+	var dfs func(node *TreeNode)
+
+	dfs = func(node *TreeNode) {
+		if node == nil || node.Val == 3 {
+			return
+		}
+		currentPath = append(currentPath, node)
+		if node.Val == target {
+			temp := make([]*TreeNode, len(currentPath))
+			copy(temp, currentPath)
+			res = append(res, temp)
+		}
+		dfs(node.Left)
+		dfs(node.Right)
+		currentPath = currentPath[:len(currentPath)-1]
+	}
+	dfs(root)
+	return res
+}
+
 func main() {
-	now := time.Now()
-	println(climbStairs1(30))
-	fmt.Println(time.Now().Sub(now).String())
-	now = time.Now()
-	println(climbStairs2(30))
-	fmt.Println(time.Now().Sub(now).String())
-	now = time.Now()
-	println(climbStairs3(30))
-	fmt.Println(time.Now().Sub(now).String())
-}
+	// 构建一个示例二叉树
+	root := &TreeNode{Val: 1}
+	root.Left = &TreeNode{Val: 7}
+	root.Right = &TreeNode{Val: 3}
+	root.Left.Left = &TreeNode{Val: 7}
+	root.Left.Right = &TreeNode{Val: 4}
+	root.Right.Left = &TreeNode{Val: 5}
+	root.Right.Right = &TreeNode{Val: 7}
 
-// 递归（时间：2^n，效率极低）
-func climbStairs1(n int) int {
-	if n == 1 || n == 2 {
-		return n
+	paths := findPaths(root, 7)
+	// 遍历输出val
+	for _, path := range paths {
+		for _, node := range path {
+			fmt.Print(node.Val, " ")
+		}
+		fmt.Println()
 	}
-	return climbStairs1(n-1) + climbStairs1(n-2)
-}
-
-// 动态规划
-func climbStairs2(n int) int {
-	if n <= 2 {
-		return n
-	}
-	pre, cur := 1, 2
-	for i := 3; i <= n; i++ {
-		pre, cur = cur, pre+cur
-	}
-	return cur
-}
-
-// 记忆化存储
-func climbStairs3(n int) int {
-	mem := make([]int, n+1)
-	for k := range mem {
-		mem[k] = -1 // -1 表示暂无记录
-	}
-	return handler(n, mem)
-}
-
-func handler(n int, mem []int) int {
-	if n <= 2 {
-		return n
-	}
-	if mem[n] != -1 {
-		return mem[n]
-	}
-	count := handler(n-1, mem) + handler(n-2, mem)
-	mem[n] = count
-	return count
 }
