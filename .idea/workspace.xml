@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7a176dd1-96aa-4093-bbfe-1d76cbe5341f" name="更改" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/阶梯.go" beforeDir="false" afterPath="$PROJECT_DIR$/misc/爬楼梯.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,8 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -111,10 +114,11 @@
       <method v="2" />
     </configuration>
     <configuration name="go build awesomeProject3/leet/middle" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build awesomeProject3/misc" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject3" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="awesomeProject3/leet/middle" />
+      <package value="awesomeProject3/misc" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/leet/middle/11盛最多水的容器.go" />
       <method v="2" />
@@ -126,6 +130,7 @@
       <package value="awesomeProject3/misc" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/misc/阶梯.go" />
+      <filePath value="$PROJECT_DIR$/misc/爬楼梯.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -146,12 +151,27 @@
         <item itemvalue="Go 构建.go build awesomeProject3/leet/middle (1)" />
         <item itemvalue="Go 构建.go build awesomeProject3/leet/middle" />
         <item itemvalue="Go 构建.go build awesomeProject3/leet/easy/tt" />
+        <item itemvalue="Go 测试.awesomeProject3/_test 中的 BenchmarkC" />
+        <item itemvalue="Go 测试.awesomeProject3/_test 中的 BenchmarkC/1" />
+        <item itemvalue="Go 测试.awesomeProject3/_test/15 中的 BenchmarkOne" />
+        <item itemvalue="Go 测试.awesomeProject3/leet/middle 中的 BenchmarkOne" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
