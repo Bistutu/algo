@@ -3,7 +3,21 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(maxProfit2([]int{7, 1, 5, 3, 6, 4}))
+	fmt.Println(maxProfit3([]int{7, 1, 5, 3, 6, 4}))
+}
+
+func maxProfit3(prices []int) int {
+	min := prices[0]
+	maxProfile := 0
+	for _, v := range prices {
+		if v < min {
+			min = v
+		}
+		if v-min > maxProfile {
+			maxProfile = v - min
+		}
+	}
+	return maxProfile
 }
 
 // 暴力解法
