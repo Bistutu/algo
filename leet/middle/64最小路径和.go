@@ -1,18 +1,10 @@
 package main
 
+
 import (
 	"fmt"
 	"math"
 )
-
-func main() {
-	grid := [][]int{
-		{1, 3, 1},
-		{1, 5, 1},
-		{4, 2, 1},
-	}
-	fmt.Println(minPathSum(grid))
-}
 
 func minPathSum(grid [][]int) int {
 	endx, endy := len(grid)-1, len(grid[0])-1
