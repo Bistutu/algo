@@ -3,7 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(lengthOfLIS([]int{10, 9, 2, 5, 3, 7, 101, 18}))
+	var n interface{} = &P{}
+	v, ok := n.(int)
+	fmt.Println(v, ok)
+}
+
+type P struct {
+	msg string
 }
 
 func lengthOfLIS(nums []int) int {
