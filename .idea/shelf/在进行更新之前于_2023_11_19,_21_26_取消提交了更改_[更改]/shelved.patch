@@ -1,0 +1,92 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"ALL\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"7a176dd1-96aa-4093-bbfe-1d76cbe5341f\" name=\"更改\" comment=\"1\">\n      <change afterPath=\"$PROJECT_DIR$/_test/15/15三数之和.go\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/_test/15/15三数之和_test.go\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/_test/70爬楼梯_test.go\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/_test/70爬楼梯_test.go\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/canBeDelete.go\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/canBeDelete.go\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/leet/middle/15三数之和.go\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/leet/middle/15三数之和.go\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Go Application\" />\n        <option value=\"Go File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"GOROOT\" url=\"file://$USER_HOME$/sdk/go1.20.3\" />\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitToolBoxStore\">\n    <option name=\"projectConfigVersion\" value=\"5\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 8\n}</component>\n  <component name=\"ProjectId\" id=\"2VOIqvBwohaR8GA3ikRfy6bQhVG\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"autoscrollToSource\" value=\"true\" />\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n    <option name=\"showMembers\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"DefaultGoTemplateProperty\": \"Go Application\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.go.formatter.settings.were.checked\": \"true\",\n    \"RunOnceActivity.go.migrated.go.modules.settings\": \"true\",\n    \"RunOnceActivity.go.modules.automatic.dependencies.download\": \"true\",\n    \"RunOnceActivity.go.modules.go.list.on.any.changes.was.set\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"git-widget-placeholder\": \"main\",\n    \"go.import.settings.migrated\": \"true\",\n    \"go.sdk.automatically.set\": \"true\",\n    \"last_opened_file_path\": \"/Users/thinkstu/Desktop/_github/algo/_test/15\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"settings.editor.selected.configurable\": \"reference.settings.ide.settings.new.ui\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/_test/15\" />\n      <recent name=\"$PROJECT_DIR$/21\" />\n      <recent name=\"$PROJECT_DIR$/2\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/leet\" />\n      <recent name=\"$PROJECT_DIR$/DataStructure\" />\n      <recent name=\"$PROJECT_DIR$/2\" />\n      <recent name=\"$PROJECT_DIR$/21\" />\n      <recent name=\"$PROJECT_DIR$/1. 两数之和\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Go 测试.awesomeProject3/_test 中的 BenchmarkC\">\n    <configuration default=\"true\" type=\"GoApplicationRunConfiguration\" factoryName=\"Go Application\">\n      <module name=\"awesomeProject3\" />\n      <working_directory value=\"$PROJECT_DIR$\" />\n      <go_parameters value=\"-i\" />\n      <kind value=\"PACKAGE\" />\n      <package value=\"awesomeProject3\" />\n      <directory value=\"$PROJECT_DIR$\" />\n      <filePath value=\"$PROJECT_DIR$\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"go build awesomeProject3/leet/middle\" type=\"GoApplicationRunConfiguration\" factoryName=\"Go Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"awesomeProject3\" />\n      <working_directory value=\"$PROJECT_DIR$\" />\n      <kind value=\"FILE\" />\n      <package value=\"awesomeProject3/leet/middle\" />\n      <directory value=\"$PROJECT_DIR$\" />\n      <filePath value=\"$PROJECT_DIR$/leet/middle/15三数之和.go\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration default=\"true\" type=\"GoTestRunConfiguration\" factoryName=\"Go Test\">\n      <module name=\"awesomeProject3\" />\n      <working_directory value=\"$PROJECT_DIR$\" />\n      <go_parameters value=\"-i\" />\n      <kind value=\"DIRECTORY\" />\n      <package value=\"awesomeProject3\" />\n      <directory value=\"$PROJECT_DIR$\" />\n      <filePath value=\"$PROJECT_DIR$\" />\n      <framework value=\"gotest\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"awesomeProject3/_test 中的 BenchmarkC\" type=\"GoTestRunConfiguration\" factoryName=\"Go Test\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"awesomeProject3\" />\n      <working_directory value=\"$PROJECT_DIR$/_test\" />\n      <root_directory value=\"$PROJECT_DIR$\" />\n      <kind value=\"PACKAGE\" />\n      <package value=\"awesomeProject3/_test\" />\n      <directory value=\"$PROJECT_DIR$\" />\n      <filePath value=\"$PROJECT_DIR$\" />\n      <framework value=\"gobench\" />\n      <pattern value=\"^\\QBenchmarkC\\E$\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"awesomeProject3/_test 中的 BenchmarkC/1\" type=\"GoTestRunConfiguration\" factoryName=\"Go Test\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"awesomeProject3\" />\n      <working_directory value=\"$PROJECT_DIR$/_test\" />\n      <root_directory value=\"$PROJECT_DIR$\" />\n      <kind value=\"PACKAGE\" />\n      <package value=\"awesomeProject3/_test\" />\n      <directory value=\"$PROJECT_DIR$\" />\n      <filePath value=\"$PROJECT_DIR$\" />\n      <framework value=\"gobench\" />\n      <pattern value=\"^\\QBenchmarkC\\E$/^\\Q1\\E$\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"awesomeProject3/_test/15 中的 BenchmarkOne\" type=\"GoTestRunConfiguration\" factoryName=\"Go Test\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"awesomeProject3\" />\n      <working_directory value=\"$PROJECT_DIR$/_test/15\" />\n      <root_directory value=\"$PROJECT_DIR$\" />\n      <kind value=\"PACKAGE\" />\n      <package value=\"awesomeProject3/_test/15\" />\n      <directory value=\"$PROJECT_DIR$\" />\n      <filePath value=\"$PROJECT_DIR$\" />\n      <framework value=\"gobench\" />\n      <pattern value=\"^\\QBenchmarkOne\\E$\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"awesomeProject3/leet/middle 中的 BenchmarkOne\" type=\"GoTestRunConfiguration\" factoryName=\"Go Test\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"awesomeProject3\" />\n      <working_directory value=\"$PROJECT_DIR$/leet/middle\" />\n      <root_directory value=\"$PROJECT_DIR$\" />\n      <kind value=\"PACKAGE\" />\n      <package value=\"awesomeProject3/leet/middle\" />\n      <directory value=\"$PROJECT_DIR$\" />\n      <filePath value=\"$PROJECT_DIR$\" />\n      <framework value=\"gobench\" />\n      <pattern value=\"^\\QBenchmarkOne\\E$\" />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Go 测试.awesomeProject3/_test 中的 BenchmarkC\" />\n        <item itemvalue=\"Go 测试.awesomeProject3/_test 中的 BenchmarkC/1\" />\n        <item itemvalue=\"Go 测试.awesomeProject3/_test/15 中的 BenchmarkOne\" />\n        <item itemvalue=\"Go 测试.awesomeProject3/leet/middle 中的 BenchmarkOne\" />\n        <item itemvalue=\"Go 构建.go build awesomeProject3/leet/middle\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"1\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"1\" />\n  </component>\n  <component name=\"VgoProject\">\n    <settings-migrated>true</settings-migrated>\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"DlvLineBreakpoint\">\n          <url>file://$PROJECT_DIR$/DataStructure/二叉搜索树.go</url>\n          <line>47</line>\n          <option name=\"timeStamp\" value=\"19\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"DlvLineBreakpoint\">\n          <url>file://$PROJECT_DIR$/newcode/1.go</url>\n          <line>20</line>\n          <option name=\"timeStamp\" value=\"22\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"DlvLineBreakpoint\">\n          <url>file://$PROJECT_DIR$/misc/sort/归并gpt.go</url>\n          <line>6</line>\n          <option name=\"timeStamp\" value=\"24\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"DlvLineBreakpoint\">\n          <url>file://$PROJECT_DIR$/leet/121/买卖股票的最佳时机.go</url>\n          <line>35</line>\n          <option name=\"timeStamp\" value=\"27\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"DlvLineBreakpoint\">\n          <url>file://$PROJECT_DIR$/leet/206/反转链表.go</url>\n          <line>5</line>\n          <option name=\"timeStamp\" value=\"28\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n    <watches-manager>\n      <configuration name=\"GoApplicationRunConfiguration\">\n        <watch expression=\"v\" />\n      </configuration>\n    </watches-manager>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 8a16c78f82e68e123a784097ae644e440caddc04)
++++ b/.idea/workspace.xml	(date 1696163070826)
+@@ -5,12 +5,7 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="7a176dd1-96aa-4093-bbfe-1d76cbe5341f" name="更改" comment="1">
+-      <change afterPath="$PROJECT_DIR$/_test/15/15三数之和.go" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/_test/15/15三数之和_test.go" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/_test/70爬楼梯_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/_test/70爬楼梯_test.go" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/canBeDelete.go" beforeDir="false" afterPath="$PROJECT_DIR$/canBeDelete.go" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/leet/middle/15三数之和.go" beforeDir="false" afterPath="$PROJECT_DIR$/leet/middle/15三数之和.go" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -45,25 +40,25 @@
+     <option name="showLibraryContents" value="true" />
+     <option name="showMembers" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "DefaultGoTemplateProperty": "Go Application",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+-    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "git-widget-placeholder": "main",
+-    "go.import.settings.migrated": "true",
+-    "go.sdk.automatically.set": "true",
+-    "last_opened_file_path": "/Users/thinkstu/Desktop/_github/algo/_test/15",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
++    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;/Users/thinkstu/Desktop/_github/algo/_test/15&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/_test/15" />
+@@ -78,7 +73,7 @@
+       <recent name="$PROJECT_DIR$/1. 两数之和" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Go 测试.awesomeProject3/_test 中的 BenchmarkC">
++  <component name="RunManager" selected="Go 构建.go build awesomeProject3/leet/middle">
+     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+       <module name="awesomeProject3" />
+       <working_directory value="$PROJECT_DIR$" />
+@@ -157,15 +152,6 @@
+       <pattern value="^\QBenchmarkOne\E$" />
+       <method v="2" />
+     </configuration>
+-    <recent_temporary>
+-      <list>
+-        <item itemvalue="Go 测试.awesomeProject3/_test 中的 BenchmarkC" />
+-        <item itemvalue="Go 测试.awesomeProject3/_test 中的 BenchmarkC/1" />
+-        <item itemvalue="Go 测试.awesomeProject3/_test/15 中的 BenchmarkOne" />
+-        <item itemvalue="Go 测试.awesomeProject3/leet/middle 中的 BenchmarkOne" />
+-        <item itemvalue="Go 构建.go build awesomeProject3/leet/middle" />
+-      </list>
+-    </recent_temporary>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+   <component name="TypeScriptGeneratedFilesManager">
