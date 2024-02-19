@@ -3,25 +3,22 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(BinarySearch([]int{10, 20, 30, 40, 60, 70}, 0))
+	nums := []int{1, 2, 3, 4, 5, 6, 7}
+	fmt.Println(binarySearch(nums, 7))
 }
 
-func BinarySearch(num []int, target int) int {
-	if num == nil {
-		return -1
-	}
-	//
-	var i, j = 0, len(num) - 1
-	var middle int
-	for i <= j {
-		// 求中点（算式防止直接 j+i 导致的int越界）
-		middle = i + (j-i)/2
-		if target == num[middle] {
-			return middle
-		} else if target > num[middle] {
-			i = middle + 1
+// 二分查找
+func binarySearch(nums []int, target int) int {
+	left, right := 0, len(nums)-1
+	for right >= left {
+		mid := (right + left) / 2
+		if nums[mid] == target {
+			return mid
+		}
+		if nums[mid] < target {
+			left = mid + 1
 		} else {
-			j = middle - 1
+			right = mid - 1
 		}
 	}
 	return -1
