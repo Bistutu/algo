@@ -9,11 +9,11 @@ func main() {
 
 func twoSum(nums []int, target int) []int {
 	m := make(map[int]int)
-	for i := 0; i < len(nums); i++ {
-		if v, ok := m[target-nums[i]]; ok {
-			return []int{v, i}
+	for k1, v := range nums {
+		if k2, ok := m[target-v]; ok {
+			return []int{k2, k1}
 		}
-		m[nums[i]] = i
+		m[v] = k1
 	}
-	return []int{}
+	return []int{-1, -1}
 }
