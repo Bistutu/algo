@@ -1,8 +1,6 @@
 package main
 
-
 import (
-	"fmt"
 	"math"
 )
 
@@ -31,10 +29,4 @@ func minPathSumDFS(grid, mem [][]int, i, j int) int {
 	score := min(left, top) + grid[i][j]
 	mem[i][j] = score
 	return score
-}
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
 }

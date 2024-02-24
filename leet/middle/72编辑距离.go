@@ -2,40 +2,46 @@ package main
 
 import (
 	"fmt"
-	"sort"
 )
 
 func main() {
 	fmt.Println(minDistance("horse", "ros"))
 }
 
-func minDistance(word1 string, word2 string) int {
-	m := len(word1)
-	n := len(word2)
-	dp := make([][]int, m+1)
-	for i := 0; i <= m; i++ {
-		dp[i] = make([]int, n+1)
+// 允许 3 种操作：插入、删除、替换
+func minDistance(s string, t string) int {
+	sSize := len(s) + 1
+	tSize := len(t) + 1
+	dp := make([][]int, sSize)
+	for i := 0; i < sSize; i++ {
+		dp[i] = make([]int, tSize)
 	}
-	for i := 0; i <= m; i++ {
+	for i := 0; i < sSize; i++ {
 		dp[i][0] = i
 	}
-	for j := 0; j <= n; j++ {
-		dp[0][j] = j
+	for i := 0; i < tSize; i++ {
+		dp[0][i] = i
 	}
-	// 开始
-	for i := 1; i <= m; i++ {
-		for j := 1; j <= n; j++ {
-			if word1[i-1] == word2[j-1] {
+
+	for i := 1; i < sSize; i++ {
+		for j := 1; j < tSize; j++ {
+			if s[i-1] == t[j-1] {
 				dp[i][j] = dp[i-1][j-1]
 			} else {
-				dp[i][j] = min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1
+				dp[i][j] = mins(dp[i-1][j-1], dp[i-1][j], dp[i][j-1]) + 1
 			}
 		}
 	}
-	return dp[m][n]
+	return dp[sSize-1][tSize-1]
 }
 
-func min(nums ...int) int {
-	sort.Ints(nums)
-	return nums[0]
+func mins(a, b, c int) int {
+	minVal := a
+	if b < minVal {
+		minVal = b
+	}
+	if c < minVal {
+		minVal = c
+	}
+	return minVal
 }
