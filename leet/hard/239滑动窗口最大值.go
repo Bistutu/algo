@@ -17,11 +17,13 @@ func maxSlidingWindow(nums []int, k int) []int {
 	rs := make([]int, 0)
 	h := &IntHeap{}
 	heap.Init(h)
+	// 先把 k-1 个元素加进去（代表再加入一个元素就应该能得到一个结果 rs）
 	for i := 0; i < k-1; i++ {
 		heap.Push(h, [2]int{nums[i], i})
 	}
 	for i := k - 1; i < len(nums); i++ {
 		heap.Push(h, [2]int{nums[i], i})
+		// 每次都循环清除堆中不属于当前窗口的元素！
 		for (*h)[0][1] <= i-k {
 			heap.Pop(h)
 		}

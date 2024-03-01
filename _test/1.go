@@ -2,34 +2,30 @@ package main
 
 import (
 	"fmt"
-	"math"
+	"sort"
 )
 
 func main() {
-	fmt.Println(countPrimes(10)) // 输出小于10的质数数量
+	fmt.Println(minMeetingRooms([][]int{{0, 30}, {5, 10}, {15, 20}}))
 }
 
-func countPrimes(n int) int {
-	if n <= 2 {
-		return 0
-	}
-
-	isPrime := make([]bool, n)
-	for i := 2; i < n; i++ {
-		isPrime[i] = true
-	}
-
-	for i := 2; i <= int(math.Sqrt(float64(n))); i++ {
-		if isPrime[i] {
-			for j := i * i; j < n; j += i {
-				isPrime[j] = false
-			}
-		}
-	}
-
+func minMeetingRooms(intervals [][]int) int {
 	count := 0
-	for i := 2; i < n; i++ {
-		if isPrime[i] {
+	start := make([]int, len(intervals))
+	end := make([]int, len(intervals))
+	for k, v := range intervals {
+		start[k] = v[0]
+		end[k] = v[1]
+	}
+
+	sort.Ints(start)
+	sort.Ints(end)
+
+	index := 0
+	for _, v := range start {
+		if v >= end[index] {
+			index++
+		} else {
 			count++
 		}
 	}
