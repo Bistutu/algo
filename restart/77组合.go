@@ -7,8 +7,24 @@ func main() {
 }
 
 func combine(n int, k int) [][]int {
-	// 这里现在虽然不知道有多少个，但是 []int 肯定为 k
 	rs := make([][]int, 0)
+	cur := make([]int, 0)
 
+	var dfs func(start int)
+	dfs = func(start int) {
+		if len(cur) == k {
+			t := make([]int, len(cur))
+			copy(t, cur)
+			rs = append(rs, t)
+			return // 记得 return
+		}
+		for i := start; i <= n; i++ {
+			cur = append(cur, i)
+			dfs(i + 1)
+			cur = cur[:len(cur)-1]
+		}
+	}
+
+	dfs(1)
 	return rs
 }
